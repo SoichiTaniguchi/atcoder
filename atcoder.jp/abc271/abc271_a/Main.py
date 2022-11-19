@@ -1,0 +1,5 @@
+n = int(input())
+x = str(format(n, 'x'))
+x = x.upper()
+if len(x) == 1: print("0"+x)
+else: print(x)
