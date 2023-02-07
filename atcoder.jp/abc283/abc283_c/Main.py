@@ -1,0 +1,5 @@
+s = input()
+ans = s.count('00')
+s = s.replace('00','')
+ans += len(s)
+print(ans)
